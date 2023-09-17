@@ -7,5 +7,5 @@ services:
       - .:/var/www/html
       - ./templates/static:/var/www/html/templates/static
     working_dir: /var/www/html
-    ports:
-      - "8008:8008"
+#    ports:
+#      - "8008:8008"
