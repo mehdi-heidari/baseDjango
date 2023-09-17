@@ -7,5 +7,6 @@ services:
       - .:/var/www/html
       - ./templates/static:/var/www/html/templates/static
     working_dir: /var/www/html
+    network_mode: host
 #    ports:
 #      - "8008:8008"
