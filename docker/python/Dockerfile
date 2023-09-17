@@ -13,7 +13,7 @@ RUN pip freeze > newreqs.txt
 
 ENV XDG_RUNTIME_DIR=/run/user/"${UID}"
 
-EXPOSE 8000
+#EXPOSE 8008
 # start server
 CMD python manage.py runserver
 #CMD ["uwsgi", "--ini", "/uwsgi.ini"]
