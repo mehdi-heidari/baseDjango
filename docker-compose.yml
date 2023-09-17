@@ -7,4 +7,3 @@ services:
       - .:/var/www/html
       - ./templates/static:/var/www/html/templates/static
     working_dir: /var/www/html
-    user: 1001:1001

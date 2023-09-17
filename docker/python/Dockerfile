@@ -10,7 +10,6 @@ RUN pip install -r requirements.txt
 RUN rm /usr/bin/mysql*
 COPY uwsgi.ini /uwsgi.ini
 RUN pip freeze > newreqs.txt
-RUN useradd -u 1001 dev0user
 
 ENV XDG_RUNTIME_DIR=/run/user/"${UID}"
 
